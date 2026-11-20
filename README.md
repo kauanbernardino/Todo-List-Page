@@ -1,16 +1,32 @@
-# React + Vite
+# Todo List Page 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto simples de um lista de tarefas, onde usuario faz o acompanhamento de suas tarefas diarias
 
-Currently, two official plugins are available:
+## Funcionalidades
+- Criaçao de Tarefas
+- Remocao de Tarefas
+- Completar Tarefas
+- Atribuir categoria a Tarefas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias
+- Html5
+- Css
+- JavaScript
+- React
+- ReactDom
+- Vite
 
-## React Compiler
+## Como rodar
+1- npm install 
+2- npm run dev
+(devem ser feitos na pasta do projeto)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Limitacoes
 
-## Expanding the ESLint configuration
+1- Ainda nao é possivel salvar tarefas de forma permanente, pois ainda nao foi implementado
+um banco de dados para a aplicacao salvar de forma definitiva as atividades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Proximos Passos
+
+1- Adicao de um banco de dados ao projeto
+2- Melhoria do Front-End do projeto
