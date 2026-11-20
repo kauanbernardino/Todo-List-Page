@@ -1,32 +1,36 @@
-# Todo List Page 
+# Todo List Page
 
-Projeto simples de um lista de tarefas, onde usuario faz o acompanhamento de suas tarefas diarias
+Lista de tarefas simples feita em React, onde o usuário acompanha suas tarefas diárias.
 
 ## Funcionalidades
-- Criaçao de Tarefas
-- Remocao de Tarefas
-- Completar Tarefas
-- Atribuir categoria a Tarefas
+- Criação de tarefas
+- Remoção de tarefas
+- Marcar tarefas como concluídas
+- Atribuir uma categoria a cada tarefa (Trabalho, Pessoal ou Estudos)
 
 ## Tecnologias
-- Html5
-- Css
+- HTML5
+- CSS
 - JavaScript
-- React
-- ReactDom
-- Vite
+- React e React DOM
+- Vite (ferramenta que roda e empacota o projeto)
 
 ## Como rodar
-1- npm install 
-2- npm run dev
-(devem ser feitos na pasta do projeto)
+Pré-requisito: ter o [Node.js](https://nodejs.org/) instalado.
 
-## Limitacoes
+Na pasta do projeto, execute:
 
-1- Ainda nao é possivel salvar tarefas de forma permanente, pois ainda nao foi implementado
-um banco de dados para a aplicacao salvar de forma definitiva as atividades
+```bash
+npm install
+npm run dev
+```
 
-## Proximos Passos
+Abra no navegador o endereço que aparecer no terminal (normalmente `http://localhost:5173`).
 
-1- Adicao de um banco de dados ao projeto
-2- Melhoria do Front-End do projeto
+## Limitações
+- As tarefas ficam guardadas apenas na memória da página (`useState`). Ao recarregar, a lista volta para as tarefas de exemplo.
+
+## Próximos passos
+1. Salvar as tarefas no navegador com `localStorage`, para não se perderem ao recarregar.
+2. Futuramente, guardar em um banco de dados, por meio de uma API.
+3. Melhorar o visual do front-end.
